@@ -1,0 +1,101 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 新細明體;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 700px;
+  height: 420px;
+  border: 1px dashed #50b3da;
+}
+
+.container .box1 {
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.container .box1 h3 {
+  color: blue;
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.container .box2 {
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.container .box2 span {
+  margin-right: 5px;
+}
+
+.container .box2 div {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 300px;
+  border: 1px dashed #50b3da;
+  height: 20px;
+  font-size: 13px;
+}
+
+.container .box2 input {
+  border: 1px dashed #50b3da;
+  width: 80px;
+  text-align: center;
+}
+
+.container .box2 button {
+  margin-right: 10px;
+  border: unset;
+  background-color: aqua;
+  color: blue;
+  font-weight: 600;
+}
+
+.container .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.container .box3 table {
+  border: 1px dashed #50b3da;
+  width: 80%;
+  text-align: center;
+}
+
+.container .box3 table th {
+  border: 1px dashed #50b3da;
+}
+
+.container .box3 table td {
+  border: 1px dashed #50b3da;
+}
+/*# sourceMappingURL=BMI.css.map */
